@@ -21,4 +21,3 @@ try:
 except Exception as e:
     print("❌ Database connection failed!")
     print(e)
-
