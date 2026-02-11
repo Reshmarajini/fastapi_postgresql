@@ -12,7 +12,7 @@ app.include_router(users.router)
 def root():
     return {"message": "CRUD API is running 🚀"}
 
-#conflit here
+
 def test():
     
 
