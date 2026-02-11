@@ -15,12 +15,12 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 
-
+#mainbranch
 try:
     with engine.connect() as conn:
-        print("✅ Successfully connected to the database!")
+        print("Successfully connected to the database!")
 except Exception as e:
-    print("❌ Database connection failed!")
+    print("Database connection failed!")
     print(e)
 
 
