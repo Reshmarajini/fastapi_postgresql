@@ -17,7 +17,7 @@ Base = declarative_base()
 
 try:
     with engine.connect() as conn:
-        print("✅ Successfully connected to the database!")
+        print("Successfully connected to the database!hiiiiiiiiiiiiiiiiiiiiiiiiii")
 except Exception as e:
-    print("❌ Database connection failed!")
+    print("Database connection failed!!!!!!!!!!!!!!!!!!!!")
     print(e)
