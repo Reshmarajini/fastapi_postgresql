@@ -15,7 +15,9 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 
-#mainbranch
+        print("Successfully connected to the database!")
+                print("Successfully connected to the database!")
+                        print("Successfully connected to the database!")
 try:
     with engine.connect() as conn:
         print("Successfully connected to the database!")
