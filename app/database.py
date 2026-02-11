@@ -27,8 +27,8 @@ except Exception as e:
     print(e)
 
 # try:
-     with engine.connect() as conn:
-"✅ Successfully connected to the database!")
+  with engine.connect() as conn:
+ssfully connected to the database!")
  except Exception as e:
 #     print("❌ Database connection failed!")
 #     print(e)
