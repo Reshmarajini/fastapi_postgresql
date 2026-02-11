@@ -12,7 +12,6 @@ app.include_router(users.router)
 def root():
     return {"message": "CRUD API is running 🚀"}
 
-
 def test():
     
 
