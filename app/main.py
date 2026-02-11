@@ -6,13 +6,13 @@ app = FastAPI()
 app.include_router(users.router)
 
 
-#hii there
+
 
 @app.get("/")
 def root():
     return {"message": "CRUD API is running 🚀"}
 
-#conflit here
+
 def test():
     
 
