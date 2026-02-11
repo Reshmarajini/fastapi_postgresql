@@ -28,7 +28,13 @@ except Exception as e:
 
 # try:
      with engine.connect() as conn:
-"✅ Successfully connected to the database!")
- except Exception as e:
+print("✅ Successfully connected to the database!")
+# try:
+#     with engine.connect() as conn:
+#         print("✅ Successfully connected to the database!")
+# except Exception as e:
 #     print("❌ Database connection failed!")
+#     print(e)
+ sdfsfsfsfsfsfsexcept Exception as e:
+fdfddgdgdg#     print("❌ Database connection failed!")
 #     print(e)
