@@ -14,14 +14,6 @@ engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
-<<<<<<< HEAD
-
-=======
-#testing
-# engine = create_engine(DATABASE_URL)
-# SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-# Base = declarative_base()
->>>>>>> 0e61f36 (testing)
 
 try:
     with engine.connect() as conn:
